@@ -19,6 +19,130 @@
     <link rel="stylesheet" href="/Stylesheet/index.css" />
   </head>
   <body>
-    <h1>Quiz's</h1>
+    <header class="nav-bar">
+      <nav class="nav-bar-container">
+        <div class="nav-section">
+          <div id="doc-burgerMenu" class="burger-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <div class="nav-logo-title">
+            <a class="link-no-style" href="/index.html"> Quiz's </a>
+          </div>
+          <ul class="nav-pill nav-menu">
+            <li class="list-inline-item">
+              <a href="/index.html" class="link-no-style">Home</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="/Pages/dashboard.html" class="link-no-style">Dashboard</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+        <div class="nav-section">
+          <ul class="nav-pill nav-btn-icons">
+            <li class="list-inline-item">
+              <a
+                href="https://github.com/RahulKuvlekar/Quiz"
+                class="nav-icon-btn"
+                target="_blank"
+              >
+                <span class="nav-icon">
+                  <i class="fa-brands fa-github"></i>
+                </span>
+                <span class="nav-icon-text"> Github </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="full-page">
+      <div class="home-card card-container">
+        <div class="card-content">
+          <h1 class="card-title">Bored? Want to have fun?</h1>
+          <p class="card-body-text">Take a Quiz and Enjoy learning with Fun</p>
+          <div class="btn-container">
+            <a href="#category-section" class="btn btn-secondary"
+              >Explore Categories</a
+            >
+            <a
+              href="https://github.com/RahulKuvlekar/Quiz"
+              class="btn btn-secondary"
+              >Github</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-page">
+      <div id="category-section" class="category-container">
+        <!-- Three type of card-shadow-lt | card-shadow-md | card-shadow-dk -->
+
+        <!-- Using the 'card-shadow-lt' followed by "card container" -->
+        <div class="card-container card-shadow-lt">
+          <img
+            class="card-img"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Avengers_%28Marvel_Comics%29_vol_3_num_38.jpg/220px-Avengers_%28Marvel_Comics%29_vol_3_num_38.jpg"
+            alt=""
+          />
+          <div class="card-badge card-badge-danger">Trending</div>
+          <button class="card-btn-dismiss">
+            <i class="btn-icon fa-solid fa-x"></i>
+          </button>
+          <div class="card-content">
+            <h3 class="card-title">Avenger's Quiz</h3>
+            <p class="text-sm text-grey-md">
+              The Avengers are a fictional team of superheroes that appears in
+              American comic books published by Marvel Comics. The team made its
+              debut in The Avengers #1 (cover-dated Sept. 1963), created by
+              writer-editor Stan Lee and artist/co-plotter Jack Kirby. Labeled
+              "Earth's Mightiest Heroes"
+            </p>
+
+            <div class="btn-container">
+              <a href="/Pages/avenger-category.html" class="btn btn-primary"
+                >View Categories</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Using the 'card-container'  -->
+        <div class="card-container">
+          <!-- Using the 'card-overlay' as a wrapper class -->
+          <div class="card-overlay">
+            <!-- Using 'card-overlay-content' to display message on overlay -->
+            <div class="card-overlay-content">
+              <h1>Coming Soon ...</h1>
+            </div>
+            <img
+              class="card-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/220px-DC_Comics_logo.svg.png"
+              alt=""
+            />
+            <button class="card-btn-dismiss">
+              <i class="btn-icon fa-solid fa-x"></i>
+            </button>
+            <div class="card-content">
+              <h3 class="card-title">DC comics</h3>
+              <p class="text-sm text-grey-md">
+                The Avengers are a fictional team of superheroes that appears in
+                American comic books published by Marvel Comics. The team made
+                its debut in The Avengers #1 (cover-dated Sept. 1963), created
+                by writer-editor Stan Lee and artist/co-plotter Jack Kirby.
+                Labeled "Earth's Mightiest Heroes"
+              </p>
+              <div class="btn-container">
+                <button class="btn btn-primary">View Categories</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
