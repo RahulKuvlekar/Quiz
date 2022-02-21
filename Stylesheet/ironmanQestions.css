@@ -1,0 +1,28 @@
+button.btn,
+label.btn {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.btn-option input {
+  display: none;
+}
+.btn-option label {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  margin: 1rem;
+  color: var(--default-color);
+  margin: 0.5rem 0;
+}
+.btn-option input:checked ~ label {
+  background-color: var(--danger-color);
+  border: 1px solid var(--danger-color);
+  transition: background-color 1s ease-in-out;
+  color: white;
+}
+.btn-option input:checked ~ label.success {
+  background-color: var(--success-color);
+  border: 1px solid var(--success-color);
+  transition: background-color 1s ease-in-out;
+  color: white;
+}
