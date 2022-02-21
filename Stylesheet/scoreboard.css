@@ -1,0 +1,24 @@
+.score-box {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.score-heading {
+  width: 100%;
+  text-align: center;
+  margin: 0.5rem;
+}
+.final-score {
+  display: inline-block;
+  font-size: 2.5rem;
+  border: 5px solid var(--danger-color);
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+.final-score span {
+  color: var(--success-color);
+  font-weight: 900;
+}
