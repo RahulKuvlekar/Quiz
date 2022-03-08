@@ -1,0 +1,25 @@
+.card-quizBoard {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.6rem;
+  border: 3px solid var(--grey-color-light);
+  cursor: pointer;
+}
+
+.card-quizBoard:hover {
+  border: 3px solid var(--primary-color);
+  transition: border 0.2s ease-in-out;
+}
+
+.card-quizBoard .card-title,
+.card-quizBoard .card-score {
+  color: var(--primary-color);
+}
+.card-quizBoard:hover .card-title,
+.card-quizBoard:hover .card-score {
+  color: var(--primary-hover);
+}
