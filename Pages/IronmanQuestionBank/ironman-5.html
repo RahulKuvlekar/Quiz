@@ -18,6 +18,7 @@
     />
     <link rel="stylesheet" href="/Stylesheet/index.css" />
     <link rel="stylesheet" href="/Stylesheet/ironmanQestions.css" />
+    <script src="/Scripts/index.js" defer></script>
   </head>
   <body>
     <header class="nav-bar">
@@ -42,8 +43,46 @@
             </li>
           </ul>
         </div>
+
+        <!-- search bar -->
+
         <div class="nav-section">
+          <label class="search-bar">
+            <span class="search-bar-btn" type="submit"
+              ><i class="fa fa-search"> </i
+            ></span>
+            <input
+              class="search-bar-input"
+              type="text"
+              placeholder="Type to search"
+              name="search"
+            />
+          </label>
+
           <ul class="nav-pill nav-btn-icons">
+            <li class="profile-btn-icon list-inline-item">
+              <a href="/Pages/login.html" class="nav-icon-btn">
+                <span class="nav-icon">
+                  <i class="fas fa-user"></i>
+                </span>
+                <span class="nav-icon-text"> Profile </span>
+              </a>
+
+              <!-- DROPDOWN -->
+              <ul class="list profile-dropdown">
+                <li>
+                  <a href="/Pages/login.html">Login</a>
+                </li>
+                <hr />
+                <li>
+                  <a href="/Pages/signup.html">SignUp</a>
+                </li>
+                <hr />
+                <li>
+                  <a href="/index.html">Logout</a>
+                </li>
+              </ul>
+            </li>
             <li class="list-inline-item">
               <a
                 href="https://github.com/RahulKuvlekar/Quiz"
@@ -65,7 +104,7 @@
       <div class="simple-card">
         <div class="input-group">
           <h1 class="text-grey-dk">
-            Q-5 )What;s the name of Iron Man's computer system?
+            Q-5 )What's the name of Iron Man's computer system?
           </h1>
         </div>
         <div class="option-container">
